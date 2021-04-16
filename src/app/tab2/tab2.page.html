@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title align="center">
+      Cuenta
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="background">
+  <br>
+  <ion-grid>
+    <ion-row align="center">
+      <ion-col>
+        <ion-label >Usuario</ion-label>
+        <ion-input align="center" color="primary"readonly=»readonly» value="ElSheriff"></ion-input>
+      </ion-col>
+    </ion-row>
+  <ion-row align="center">
+    <ion-col>
+      <ion-label >Nombre</ion-label>
+      <ion-input align="center" color="primary" readonly=»readonly» value="Jose Noel Rios Alvarez"></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row align="center">
+    <ion-col>
+      <ion-label >Correo</ion-label>
+      <ion-input align="center" color="primary" readonly=»readonly» value="noe-238@live.com.mx"></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row align="center">
+    <ion-col>
+      <ion-label >Contraseña</ion-label>
+      <ion-input align="center" color="primary" readonly=»readonly» value="1234"></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col >
+      <ion-button expand='full' (click)="cerrar()">Cerrar sesion</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>

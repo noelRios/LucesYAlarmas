@@ -1,0 +1,7 @@
+{
+  "name": "ProyectoHorarios",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

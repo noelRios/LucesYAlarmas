@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title align="center">Inicio de Sesion</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content align="center" class="background">
+<ion-grid>
+<ion-row >
+<ion-col style="text-aling: center;">
+  <h3 color="primary">Inicio de Secion</h3>
+</ion-col>
+</ion-row>
+
+
+<ion-col>
+  Usuario:
+</ion-col>
+<ion-col>
+  <ion-input type="text" [(ngModel)]="usuario"></ion-input>
+</ion-col>
+<br/>
+<ion-col>
+  Contraseña:
+</ion-col>
+<ion-col>
+  <ion-input type="password" [(ngModel)]="pass"></ion-input>
+
+<ion-col>
+  <ion-row >
+  <ion-col>
+  <ion-button expand="full" (click)="validarUsuario()">Accesar</ion-button>
+  </ion-col>
+</ion-row>
+
+</ion-col>
+<p style="text-aling: center; color: red;">{{mensaje}}</p>
+</ion-col>
+</ion-grid>
+</ion-content>
